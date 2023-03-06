@@ -1,0 +1,17 @@
+# Rust.
+*
+!/**/
+!*.*
+target/
+Cargo.lock
+
+# TypeScript.
+*.*.map
+*.map
+!delete_js_files.js
+JsTrashCan/
+node_modules/
+package-lock.json
+
+# Global.
+sandbox/
