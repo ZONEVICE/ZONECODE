@@ -12,6 +12,7 @@ Cargo.lock
 JsTrashCan/
 node_modules/
 package-lock.json
+typescript/**/*.js
 
 # Global.
 sandbox/
