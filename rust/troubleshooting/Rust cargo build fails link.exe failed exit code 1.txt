@@ -1,0 +1,6 @@
+source: https://www.becomebetterprogrammer.com/rust-cargo-build-fails-link-exe-failed-exit-code-1/
+
+This problem appears on Windows.
+Run this command to fix:
+
+rustup default stable-x86_64-pc-windows-gnu

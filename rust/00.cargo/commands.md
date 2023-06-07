@@ -6,6 +6,10 @@ cargo check is a command in Rust's Cargo package manager that checks the syntax 
 
 Runs Rust application.
 
+# cargo clean
+
+Removes the target folder so it remains without older compile files.
+
 # cargo build [--release]
 
 cargo build is a command in Rust's Cargo package manager that builds a Rust project and generates an executable binary file.
