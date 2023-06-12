@@ -2,7 +2,7 @@
 
 Personal learning and studies on <a href="https://www.rust-lang.org/">Rust language</a>.
 
-Rust version worked on: `v1.66.1`
+Rust version worked on: `v1.70.0`
 
 ## Learning tutorials used
 

@@ -1,19 +1,11 @@
-# Compile
+# rustup
 
-```
-rustc {<name of main script>}.rs
-```
+Updates the entire Rust ecosystem.
 
-# Create new project with Cargo
+# rustup --version
 
-```
-cargo new {<application-name>} [--bin]
-```
+Checks the current version of Rust.
 
-`--bin` states to create a new application. Not a library.
+# rustc {name of main Rust script}.rs
 
-# Update Rust
-
-```
-rustup update
-```
+Compiles a `rs` file which is the extension of a Rust code file.

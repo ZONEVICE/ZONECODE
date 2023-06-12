@@ -16,9 +16,12 @@ cargo build is a command in Rust's Cargo package manager that builds a Rust proj
 
 By default, cargo build generates a debug version of the binary file with additional debugging information. To generate an optimized release version of the binary file, use cargo build --release. This will optimize the compiled code for performance and generate a smaller binary file in the target/release/ directory
 
-# cargo new [<name>]
+# cargo new <name_of_project> [--bin]
 
 cargo new is a command in Rust's Cargo package manager that creates a new Rust project with the specified name and directory structure. Use modifier `name` at the end to give name to the project.
+
+
+`--bin` states to create a new application. Not a library.
 
 # cargo update
 
@@ -27,3 +30,7 @@ cargo update is a command in Rust's Cargo package manager that updates the depen
 # cargo doc --open
 
 cargo doc --open is a command in Rust's Cargo package manager that generates documentation for a Rust crate and opens it in the default browser after building it.
+
+# cargo --version
+
+Checks the current version of Cargo.
