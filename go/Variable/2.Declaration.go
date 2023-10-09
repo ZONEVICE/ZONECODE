@@ -20,7 +20,7 @@ func main() {
 	// int8 making it memory overflow error if we try to set a value over 127 or below
 	// -128 in the future.
 	name := "Thomas"   // String.
-	oranges := 10      // Integer.
+	oranges := 10      // Integer. Might be int8.
 	isRunning := false // Boolean.
 
 	fmt.Println(name, oranges, isRunning)

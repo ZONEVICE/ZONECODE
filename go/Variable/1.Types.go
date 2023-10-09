@@ -35,4 +35,7 @@ func main() {
 	var boolean2 bool = true
 
 	fmt.Println(boolean1, boolean2)
+
+	// ************************** Constants. **************************
+	const Pi float32 = 3.14
 }
