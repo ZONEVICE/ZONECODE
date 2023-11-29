@@ -16,6 +16,7 @@ func main() {
 	// ************************** Short Variable Declaration **************************
 	// ":=" can be used to declare a variable faster without having to provide the
 	// variable type.
+	// It's not necessary to use "var" onto the variable declaration if ":=" is used.
 	// Possible problem: creating a variable that stores number 1 might be created as
 	// int8 making it memory overflow error if we try to set a value over 127 or below
 	// -128 in the future.

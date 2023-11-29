@@ -9,7 +9,7 @@ func main() {
 	var integer16 int16 = 32767               // -32768 to 32767
 	var integer32 int32 = 2147483647          // -2147483648 to 2147483647
 	var integer64 int64 = 9223372036854775807 // -9223372036854775808 to 9223372036854775807
-	var integer int = 1
+	var integer int = 1 					  // System dependent size. Can be int32 or int64
 
 	var unint8_ uint8 = 255                    // 0 to 255
 	var unint16_ uint16 = 65535                // 0 to 65535
