@@ -16,3 +16,7 @@ typescript/**/*.js
 
 # Global.
 sandbox/
+
+# GraphQL
+graphql/node_modules/
+!graphql/package-lock.json
