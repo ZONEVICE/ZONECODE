@@ -12,3 +12,6 @@ import (
 import "fmt"
 import "my other package"
 import "other package"
+
+// 3. Not recommended.
+import ("fmt"; "strconv")
