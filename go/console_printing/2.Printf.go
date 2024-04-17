@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+// tldr: Printf allows complex console printing.
+
 func main() {
 	// ************************** Printf syntax **************************
 

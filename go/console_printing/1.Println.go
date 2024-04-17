@@ -5,5 +5,6 @@ import (
 )
 
 func main() {
+	// Basic console printing.
 	fmt.Println("Hello world")
 }
