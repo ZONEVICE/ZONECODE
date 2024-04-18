@@ -1,0 +1,1 @@
+- Rust programs must be compiled with `rustc <your-main-file>.rs` before running
