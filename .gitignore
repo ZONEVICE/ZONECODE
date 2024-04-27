@@ -20,3 +20,6 @@ sandbox/
 # GraphQL
 graphql/node_modules/
 !graphql/package-lock.json
+
+# Vue
+!./vue/*/*.js
