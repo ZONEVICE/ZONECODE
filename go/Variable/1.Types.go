@@ -27,15 +27,17 @@ func main() {
 
 	// ************************** Strings **************************
 	var string1 string = "Hello world"
+	var string2 := "Hello world"
 
 	fmt.Println(string1)
 
 	// ************************** Booleans **************************
 	var boolean1 bool = false
 	var boolean2 bool = true
+	var boolean3 := true
 
 	fmt.Println(boolean1, boolean2)
 
 	// ************************** Constants. **************************
-	const Pi float32 = 3.14
+	const PI float32 = 3.14
 }
