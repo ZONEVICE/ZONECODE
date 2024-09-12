@@ -21,9 +21,4 @@ func main() {
 	//                                    vv
 	res, err := strconv.ParseInt(str, 10, 64)
 	fmt.Println(res - 50) // 450
-
-	// ************************** Integer to String **************************
-	number1 := 500
-	// Converts Integer into String  vvvv
-	fmt.Println("Number: " + strconv.Itoa(number1)) // Number: 500
 }
