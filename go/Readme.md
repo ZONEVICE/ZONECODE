@@ -11,5 +11,4 @@
 
 # Tutorials
 
-https://youtu.be/YS4e4q9oBaU?t=2380
 https://go.dev/tour
