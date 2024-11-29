@@ -1,11 +1,15 @@
-# rustup
+# Check available commands
 
-Updates the entire Rust ecosystem.
+`rustup`
 
-# rustup --version
+# Update Rust
 
-Checks the current version of Rust.
+`rustup update`
 
-# rustc {name of main Rust script}.rs
+# Show current Rust version
 
-Compiles a `rs` file which is the extension of a Rust code file.
+`rustup --version`
+
+# Compile Rust project
+
+`rustc {name of main Rust script}.rs`
