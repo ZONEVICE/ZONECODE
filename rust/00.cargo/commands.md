@@ -4,7 +4,7 @@ cargo check is a command in Rust's Cargo package manager that checks the syntax 
 
 # cargo run
 
-Runs Rust application.
+Compile and runs Rust application.
 
 # cargo clean
 
