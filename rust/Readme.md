@@ -4,6 +4,12 @@ Personal learning and studies on <a href="https://www.rust-lang.org/">Rust langu
 
 Rust version worked on: `v1.70.0`
 
+## How to run
+
+### Windows
+
+Install MSVC VS C++ from Visual Studio Installer
+
 ## Learning tutorials used
 
 Rust Tutorial Full Course
