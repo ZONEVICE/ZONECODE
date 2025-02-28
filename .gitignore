@@ -1,5 +1,4 @@
 # Rust.
-*
 !/**/
 !*.*
 target/
@@ -23,3 +22,6 @@ graphql/node_modules/
 
 # Vue
 !./vue/*/*.js
+
+# c
+c/*.exe
