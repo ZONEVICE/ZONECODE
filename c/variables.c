@@ -18,8 +18,6 @@ int main() {
     double my_double = 100.123456;
     printf("Double is %lf\n", my_double);
 
-    // string
-
     printf("\n");
     return 0;
 }
