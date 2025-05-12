@@ -1,0 +1,15 @@
+{
+  "name": "app",
+  "description": "PouchDB NodeJS example",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "ZONEVICE",
+  "license": "MIT",
+  "dependencies": {
+    "pouchdb": "9.0.0"
+  }
+}

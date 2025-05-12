@@ -1,6 +1,14 @@
 #include <stdio.h>
 
+#define MY_MACRO 100
+
 int main() {
+    // -------------------------------------------
+    // macros
+    // Explanation: macros are preprocessor directives that
+    // replace the macro name with its value before compilation.
+    printf("Value of macro is %d\n", MY_MACRO);
+
     // -------------------------------------------
     // integer
     int foo;
@@ -12,6 +20,7 @@ int main() {
     // float
     float my_float = 100.1234567f;
     printf("Float is %f\n", my_float);
+    printf("Parsed float is %.2f\n", my_float);
 
     // -------------------------------------------
     // double
