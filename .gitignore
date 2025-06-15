@@ -15,6 +15,7 @@ typescript/**/*.js
 
 # Global.
 sandbox/
+ig.*
 
 # GraphQL
 graphql/node_modules/
