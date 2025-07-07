@@ -5,5 +5,5 @@
  * multiline comment.
  */
 
-/* Another multine
+/* Another multi line
 comment */

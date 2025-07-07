@@ -10,15 +10,18 @@ compile and run application
 
 removes built binary file
 
+# cargo build
+Builds project in debug mode.
+
 # cargo build [--release]
 
-build the project optimized for production
+Builds project optimized for production.
 
 # cargo new <name_of_project> [--bin]
 
 creates a new rust project
 
-`--bin` states to create a new application. not a library
+`--bin` states to create a new application. Not a library.
 
 # cargo update
 
