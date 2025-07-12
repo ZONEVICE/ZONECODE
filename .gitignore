@@ -26,3 +26,6 @@ graphql/node_modules/
 
 # c
 c/*.exe
+
+# VSCode
+.vscode/
