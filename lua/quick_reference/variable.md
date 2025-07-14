@@ -1,4 +1,4 @@
-# Variables
+# Variable
 
 Lua is dynamic typed.
 
