@@ -26,7 +26,7 @@ tuple_3.0 = true; // This line will cause compiler panic.
 let tuple_4 = (false); // Compiler says: remove these parentheses 
 ```
 
-**You can make tuples mutable, however; by adding the `mut` keyword.**
+**Create mutable tuples with `mut`**
 
 ```rust
 let mut mutable_tuple = (true, 1);
@@ -34,8 +34,7 @@ mutable_tuple.0 = false;
 println!("{}, {}", mutable_tuple.0, mutable_tuple.1); // false, 1
 ```
 
-**Tuples cannot be accessed by an index.
-Meaning it cannot be iterated.**
+**Tuples cannot be number indexed**
 
 ```rust
 let mut mutable_tuple = (50, 1);

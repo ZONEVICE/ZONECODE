@@ -1,6 +1,6 @@
 # Array
 
-Arrays can only contain one type of data and its size is fixed.
+Arrays can only contain one type of data and its size is settled at compile time (cannot be changed).
 
 ```rust
 let arr: [u8; 5] = [1, 2, 3, 4, 5];

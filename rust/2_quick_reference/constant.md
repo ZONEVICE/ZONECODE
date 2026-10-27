@@ -1,5 +1,5 @@
 # Constant
-Variables that are constants are defined during compiling time.
+Constants are made during compiling time (saving memory).
 Type has to be set.
 
 ```rust

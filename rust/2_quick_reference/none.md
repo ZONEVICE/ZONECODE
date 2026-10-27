@@ -2,15 +2,21 @@
 
 In Rust, a variable with value `None` is equivalent of `NULL` in other languages.
 
-To create a `None` mutable variable, an enum must be used: `Option<T>`.
+To create a `None` mutable variable, the type `Option<T>` must be used.
+
+To mutate the variable, the function `Some()` must be used.
 
 ```rust
-// Create a mutable Option<u32> variable, initially None (like null).
+// Create the variable as None.
 let mut maybe_number: Option<u32> = None;
 println!("{:?}", maybe_number); // None
 
-maybe_number = Some(42);
-println!("{:?}", maybe_number);
-```
+// Set a value.
+maybe_number = Some(30);
+println!("{:?}", maybe_number); // 30
 
-If a mutable variable with type `Option<T>` is created, its value must always be set using `Some()`.
+// Add operation.
+let a_number: u32 = 10;
+println!("{:?}", maybe_number.map(|n| n + a_number)); // Some(40)
+println!("{}", maybe_number.unwrap_or(0) + a_number); // 40
+```
